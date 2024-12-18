@@ -1,0 +1,35 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+.JokeList {
+	padding: 0px 20px;
+}
+
+.JokeList-getmore {
+	margin: 1em 0;
+	font-size: 150%;
+	border-radius: 0.5em;
+	background-color: tomato;
+	color: white;
+	border: none;
+	padding: 8px 10px;
+}
+
+.JokeList-getmore:hover {
+	background-color: rgb(239, 74, 45);
+	cursor: pointer;
+}
+
+.JokeList-getmore:active {
+	transform: rotateY(10deg);
+}
+
+.JokeList-getmore:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+.loading {
+	width: 4em;
+	margin: 200px auto 0 auto;
+	color: tomato;
+}
